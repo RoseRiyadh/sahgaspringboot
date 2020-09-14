@@ -17,6 +17,7 @@ import tech.enjaz.rose.sahga.service.SahgaService;
 
 @RestController
 public class SahgaController {
+
     SahgaService sahgaService;
 
     @Autowired
