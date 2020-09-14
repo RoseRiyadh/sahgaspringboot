@@ -17,8 +17,6 @@
 
     <properties>
         <java.version>14</java.version>
-        <!--    CHANGE WHEN UPDATED    -->
-        <odata.version>2.0.11</odata.version>
     </properties>
 
     <developers>
@@ -80,6 +78,12 @@
         <dependency>
             <groupId>org.apache.olingo</groupId>
             <artifactId>olingo-odata2-jpa-processor-core</artifactId>
+            <version>2.0.11</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.olingo/olingo-odata2-jpa-processor-api -->
+        <dependency>
+            <groupId>org.apache.olingo</groupId>
+            <artifactId>olingo-odata2-jpa-processor-api</artifactId>
             <version>2.0.11</version>
         </dependency>
 
